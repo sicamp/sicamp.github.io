@@ -1,0 +1,16 @@
+{
+  "name": "sicamp",
+  "version": "0.0.0",
+  "description": "sicamp.github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sicamp/sicamp.github.io.git"
+  },
+  "private": true,
+  "author": "isqua <isqua@isqua.ru>",
+  "license": "MIT"
+}

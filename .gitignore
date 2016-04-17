@@ -1,0 +1,12 @@
+.*
+!.gitignore
+
+node_modules
+npm-debug.log
+
+gulpfile.js
+Readme.md
+package.json
+*.blocks
+
+build

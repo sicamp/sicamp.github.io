@@ -1,0 +1,17 @@
+.footer
+{
+    flex-shrink: 0;
+
+    padding-top: 30px;
+
+    color: #fff;
+    background: $darkGray;
+
+    @media (--tablet)
+    {
+        .wrapper
+        {
+            display: flex;
+        }
+    }
+}

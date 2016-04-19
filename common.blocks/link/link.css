@@ -1,0 +1,25 @@
+.link
+{
+    text-decoration: none;
+
+    color: $linkColor;
+    border-bottom: 1px solid color($linkColor alpha(50%));
+}
+
+.link:hover
+{
+    transition: border-bottom-color 0.2s;
+
+    border-bottom-color: $linkColor;
+}
+
+.link:visited
+{
+    color: $linkVisitedColor;
+    border-bottom-color: color($linkVisitedColor alpha(50%));
+}
+
+.link:visited:hover
+{
+    border-bottom-color: $linkVisitedColor;
+}

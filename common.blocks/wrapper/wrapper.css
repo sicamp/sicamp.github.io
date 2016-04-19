@@ -1,0 +1,19 @@
+.wrapper
+{
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $wrapperPaddingMobile;
+    padding-left: $wrapperPaddingMobile;
+
+    @media (--tablet)
+    {
+        padding-right: $wrapperPaddingTablet;
+        padding-left: $wrapperPaddingTablet;
+    }
+
+    @media (--desktop)
+    {
+        width: $wrapperMaxWidth;
+    }
+}

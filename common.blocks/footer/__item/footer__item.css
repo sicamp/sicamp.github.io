@@ -1,0 +1,23 @@
+.footer__item
+{
+    margin: 0 0 10px;
+}
+
+.footer__item,
+.footer__item .link,
+.footer__item .link:visited
+{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer__item .link,
+.footer__item .link:visited
+{
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+
+.footer__item .link:hover,
+.footer__item .link:visited:hover
+{
+    border-bottom-color: currentColor;
+}

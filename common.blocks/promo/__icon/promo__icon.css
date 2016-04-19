@@ -1,0 +1,23 @@
+.promo__icon
+{
+    font-size: 36px;
+
+    flex-shrink: 0;
+    flex-basis: 40px;
+
+    text-align: center;
+
+    color: $textSilentWhite;
+
+    @media (--tablet)
+    {
+        font-size: 40px;
+    }
+
+    @media (--desktop)
+    {
+        font-size: 60px;
+
+        flex-basis: 60px;
+    }
+}

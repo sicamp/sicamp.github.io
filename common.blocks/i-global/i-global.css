@@ -1,0 +1,57 @@
+@custom-media --mobile-only (max-width: 767px);
+@custom-media --tablet (min-width: 768px);
+@custom-media --tablet-only (max-width: 1023px);
+@custom-media --desktop (min-width: 1024px);
+@custom-media --retina (min-resolution: 144dpi), (min-resolution: 1.5dppx);
+
+$linkColor: #4ac3d6;
+$linkBorder: rgba(74, 195, 214, 0.5);
+$linkVisitedColor: #3986cf;
+$linkVisitedBorder: rgba(57, 174, 207, 0.5);
+$darkGray: #434c55;
+$textGray: #999;
+$textSilentWhite: rgba(255, 255, 255, 0.8);
+$lightGray: rgba(0, 0, 0, 0.03);
+$lighterGray: #f8f8f8;
+$green: #39b54a;
+$grass: #597821;
+
+$wrapperPaddingMobile: 20px;
+$wrapperPaddingTablet: 40px;
+$wrapperMaxWidth: 980px;
+
+$fontSize1: 13px;
+$lineHeight1: 15px;
+$fontSize2: 15px;
+$lineHeight2: 20px;
+$fontSize3: 18px;
+$lineHeight3: 25px;
+$fontSize4: 24px;
+$lineHeight4: 25px;
+$fontSize5: 30px;
+$lineHeight5: 30px;
+$fontSize6: 60px;
+$lineHeight6: 60px;
+
+$gridGap: 40px;
+$gridCol1: calc((100% - 80px) / 3);
+$gridCol2: calc((100% - 80px) * 2 / 3);
+
+a
+{
+    text-decoration: none;
+
+    color: $linkColor;
+    border-bottom: 1px solid $linkBorder;
+}
+
+a:hover
+{
+    border-bottom-color: currentColor;
+}
+
+a:visited
+{
+    color: $linkVisitedColor;
+    border-bottom-color: $linkVisitedBorder;
+}

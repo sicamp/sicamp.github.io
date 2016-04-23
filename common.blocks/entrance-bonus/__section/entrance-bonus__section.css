@@ -1,0 +1,26 @@
+.entrance-bonus__section
+{
+    margin-bottom: 40px;
+
+    @media (--tablet)
+    {
+        width: calc(50% - 40px);
+    }
+}
+
+.entrance-bonus__section.entrance-bonus__section_type_students
+{
+    @media (--tablet)
+    {
+        width: 100%;
+    }
+}
+
+.entrance-bonus__section_type_students .entrance-bonus__section-text
+{
+    @media (--tablet)
+    {
+        column-gap: 20px;
+        column-count: 3;
+    }
+}

@@ -1,0 +1,11 @@
+.text
+{
+    font-size: $fontSize2;
+    line-height: $lineHeight2;
+
+    @media (--tablet)
+    {
+        font-size: $fontSize3;
+        line-height: $lineHeight3;
+    }
+}

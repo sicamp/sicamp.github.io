@@ -1,0 +1,7 @@
+.entrance-bonus__title
+{
+    @media (--tablet)
+    {
+        flex-basis: 100%;
+    }
+}

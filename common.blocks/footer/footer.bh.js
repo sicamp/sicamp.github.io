@@ -27,7 +27,7 @@ module.exports = (bh) => {
                             elem: 'item',
                             content: {
                                 block: 'link',
-                                url: '#',
+                                url: bh.lib.resolve('entrance'),
                                 content: 'Вступительная работа'
                             }
                         },

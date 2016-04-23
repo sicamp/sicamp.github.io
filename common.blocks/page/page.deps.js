@@ -11,7 +11,8 @@
                 block: 'page',
                 mods: {
                     type: [
-                        'index'
+                        'index',
+                        'entrance'
                     ]
                 },
                 elems: [ 'css', 'js', 'metrika' ]

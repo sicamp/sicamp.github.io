@@ -12,7 +12,8 @@
                 mods: {
                     type: [
                         'index',
-                        'entrance'
+                        'entrance',
+                        'letsgo'
                     ]
                 },
                 elems: [ 'css', 'js', 'metrika' ]

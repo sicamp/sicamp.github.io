@@ -10,7 +10,7 @@ module.exports = (bh) => {
                 content: [
                     {
                         elem: 'item',
-                        url: '#',
+                        url: bh.lib.resolve('letsgo'),
                         content: 'Как попасть в лагерь'
                     },
                     {

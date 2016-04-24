@@ -1,0 +1,37 @@
+.letsgo-plan__section
+{
+    border-left: 2px solid $letsgoFlagsColor;
+    padding-bottom: 40px;
+
+    @media (--tablet) {
+        flex-basis: $gridCol1;
+        font-size: $fontSize2;
+        line-height: $lineHeight2;
+    }
+}
+
+.letsgo-plan__text
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.letsgo-plan__text li
+{
+    padding: 0 0 0 15px;
+    margin: 0 0 3px;
+    position: relative;
+}
+
+.letsgo-plan__text li::before
+{
+    content: '';
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    display: inline-block;
+    background: $letsgoFlagsColor;
+}

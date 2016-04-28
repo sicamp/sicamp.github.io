@@ -34,7 +34,7 @@ module.exports = (bh) => {
                                 {
                                     block: 'promo',
                                     elem: 'yummy-text',
-                                    content: '<b>Пермский&nbsp;край</b>'
+                                    content: '<b>Лагерь «Нечайка»</b> посёлок&nbsp;Ласьва, Пермский&nbsp;край'
                                 }
                             ]
                         },
@@ -50,7 +50,7 @@ module.exports = (bh) => {
                                 {
                                     block: 'promo',
                                     elem: 'yummy-text',
-                                    content: '<b>8 — 28 августа 2016</b>'
+                                    content: '<b>9 — 29 августа 2016</b>'
                                 }
                             ]
                         }

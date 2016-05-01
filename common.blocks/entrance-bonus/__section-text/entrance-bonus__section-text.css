@@ -1,11 +1,14 @@
 .entrance-bonus__section-text
 {
-    color: #666;
-    margin: 0;
     font-size: $fontSize1;
     line-height: $lineHeight1;
 
-    @media (--tablet) {
+    margin: 0;
+
+    color: #666;
+
+    @media (--tablet)
+    {
         font-size: $fontSize2;
         line-height: $lineHeight2;
     }
@@ -13,14 +16,17 @@
 
 ul.entrance-bonus__section-text
 {
-    list-style-type: none;
     padding: 0 0 0 12px;
+
+    list-style-type: none;
 }
 
 ul.entrance-bonus__section-text > li::before
 {
-    content: '–';
     float: left;
-    margin-left: -12px;
+
     width: 12px;
+    margin-left: -12px;
+
+    content: '–';
 }

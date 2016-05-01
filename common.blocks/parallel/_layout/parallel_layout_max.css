@@ -1,7 +1,7 @@
 .parallel_layout_max .parallel__tasks
 {
-    margin-left: 0;
     margin-top: 20px;
+    margin-left: 0;
 }
 
 .parallel_layout_max .parallel__tasks-list
@@ -12,6 +12,7 @@
 a.parallel__spoiler
 {
     cursor: pointer;
+
     border-bottom-style: dashed;
 }
 

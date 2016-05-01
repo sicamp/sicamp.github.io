@@ -1,37 +1,46 @@
 .letsgo-plan__section
 {
-    border-left: 2px solid $letsgoFlagsColor;
     padding-bottom: 40px;
 
-    @media (--tablet) {
-        flex-basis: $gridCol1;
+    border-left: 2px solid $letsgoFlagsColor;
+
+    @media (--tablet)
+    {
         font-size: $fontSize2;
         line-height: $lineHeight2;
+
+        flex-basis: $gridCol1;
     }
 }
 
 .letsgo-plan__text
 {
-    padding: 0;
     margin: 0;
+    padding: 0;
+
     list-style: none;
 }
 
 .letsgo-plan__text li
 {
-    padding: 0 0 0 15px;
-    margin: 0 0 3px;
     position: relative;
+
+    margin: 0 0 3px;
+    padding: 0 0 0 15px;
 }
 
 .letsgo-plan__text li::before
 {
-    content: '';
-    width: 10px;
-    height: 2px;
     position: absolute;
     top: 7px;
     left: 0;
+
     display: inline-block;
+
+    width: 10px;
+    height: 2px;
+
+    content: '';
+
     background: $letsgoFlagsColor;
 }

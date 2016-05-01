@@ -1,0 +1,23 @@
+.parallel__tasks
+{
+    flex-shrink: 0;
+
+    @media (--tablet)
+    {
+        flex-basis: 130px;
+        margin-left: 30px;
+    }
+
+    @media (--desktop)
+    {
+        flex-basis: 160px;
+        margin-left: 40px;
+    }
+}
+
+.parallel__tasks-list
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

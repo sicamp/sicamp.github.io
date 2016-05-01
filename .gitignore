@@ -1,2 +1,5 @@
+.enb/tmp
 node_modules
 npm-debug.log
+build
+vendor.blocks/

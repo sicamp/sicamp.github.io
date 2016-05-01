@@ -1,0 +1,17 @@
+.parallels
+{
+    padding-top: 40px;
+
+    color: $lighterGray;
+}
+
+.parallels .wrapper
+{
+    color: #666;
+}
+
+.parallels__list
+{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,53 @@
+.promo
+{
+    box-sizing: border-box;
+    padding: 40px 0 60px;
+
+    background: $grass;
+    background-image: url("grass-mobile-1.jpg");
+    background-size: cover;
+
+    @media (--retina)
+    {
+        background-image: url("grass-mobile-2.jpg");
+    }
+
+    @media (--tablet)
+    {
+        background-image: url("grass-tablet-1.jpg");
+
+        @media (--retina)
+        {
+            background-image: url("grass-tablet-2.jpg");
+        }
+    }
+
+    @media (--mobile-only)
+    {
+        min-height: 80vh;
+    }
+
+    @media (--desktop)
+    {
+        padding-bottom: 100px;
+
+        background-image: url("grass-desktop-1.jpg");
+
+        @media (--retina)
+        {
+            background-image: url("grass-desktop-2.jpg");
+        }
+    }
+}
+
+.promo .wrapper
+{
+    display: flex;
+    flex-direction: column;
+
+    @media (--desktop)
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

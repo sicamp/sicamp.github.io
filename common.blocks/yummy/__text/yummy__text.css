@@ -1,0 +1,29 @@
+.yummy__text
+{
+    font-size: $fontSize1;
+    line-height: $lineHeight1;
+
+    margin: 0;
+
+    @media (--tablet)
+    {
+        font-size: $fontSize2;
+        line-height: $lineHeight2;
+    }
+}
+
+.yummy__text p
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.yummy__text p:first-child
+{
+    margin-top: 0;
+}
+
+.yummy__text p:last-child
+{
+    margin-bottom: 0;
+}

@@ -1,0 +1,50 @@
+.menu__toggle
+{
+    position: relative;
+
+    display: none;
+
+    box-sizing: border-box;
+    width: 40px;
+    height: 50px;
+    padding: 10px 0;
+
+    cursor: pointer;
+
+    border: none;
+    background: transparent;
+}
+
+.menu__toggle:focus
+{
+    outline: none;
+}
+
+.menu__toggle::after,
+.menu__toggle::before
+{
+    position: absolute;
+    right: 0;
+    left: 0;
+
+    display: block;
+
+    height: 4px;
+
+    content: '';
+    transform-origin: 6px 2px;
+
+    background: #fff;
+}
+
+.menu__toggle::before
+{
+    top: 13px;
+
+    box-shadow: 0 10px 0 #fff;
+}
+
+.menu__toggle::after
+{
+    bottom: 13px;
+}

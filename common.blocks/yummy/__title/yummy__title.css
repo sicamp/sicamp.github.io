@@ -1,0 +1,14 @@
+.yummy__title
+{
+    font-size: $fontSize2;
+    font-weight: normal;
+    line-height: $lineHeight2;
+
+    margin: 0 0 5px;
+
+    @media (--tablet)
+    {
+        font-size: $fontSize3;
+        line-height: $lineHeight3;
+    }
+}

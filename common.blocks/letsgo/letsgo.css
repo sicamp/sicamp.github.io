@@ -1,0 +1,52 @@
+.letsgo
+{
+    font-size: $fontSize1;
+    line-height: $lineHeight1;
+
+    @media (--tablet)
+    {
+        font-size: $fontSize2;
+        line-height: $lineHeight2;
+
+        .wrapper
+        {
+            max-width: 400px;
+        }
+    }
+}
+
+.letsgo__price
+{
+    font-size: 54px;
+    line-height: $lineHeight6;
+
+    margin: 5px 0 15px;
+
+    color: $green;
+}
+
+.letsgo__button
+{
+    font-size: $fontSize3;
+    font-weight: bold;
+    line-height: $lineHeight3;
+
+    display: block;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #fff;
+    border-radius: 2px;
+    background: $green;
+}
+
+.letsgo__button,
+.letsgo__button:visited
+{
+    color: #fff;
+}

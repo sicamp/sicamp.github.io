@@ -1,0 +1,24 @@
+.promo__text
+{
+    font-size: $fontSize2;
+    line-height: $lineHeight2;
+
+    margin: 0 0 40px;
+
+    color: #fff;
+
+    @media (--tablet)
+    {
+        font-size: $fontSize3;
+        line-height: $lineHeight3;
+
+        max-width: 500px;
+    }
+
+    @media (--desktop)
+    {
+        flex-basis: $gridCol2;
+
+        margin-right: $gridGap;
+    }
+}

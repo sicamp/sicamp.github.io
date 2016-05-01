@@ -1,0 +1,15 @@
+.parallel__task
+{
+    padding-left: 15px;
+    margin: 0 0 3px;
+}
+
+.parallel__task::before
+{
+    font-weight: bold;
+    font-size: 0.95em;
+    content: attr(data-code);
+    margin-left: -15px;
+    width: 15px;
+    position: absolute;
+}

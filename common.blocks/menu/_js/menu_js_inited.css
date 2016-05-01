@@ -1,0 +1,44 @@
+@media (--mobile-only)
+{
+    .menu_js_inited .menu__list
+    {
+        position: absolute;
+        z-index: 10000;
+        top: 50px;
+        right: 0;
+        left: 0;
+
+        visibility: hidden;
+
+        margin-right: 0;
+        margin-left: 0;
+
+        transition: visibility, 0.15s opacity;
+
+        opacity: 0;
+    }
+
+    .menu_js_inited .menu__toggle
+    {
+        display: block;
+    }
+
+    .menu_js_inited.menu_open_yes .menu__list
+    {
+        visibility: visible;
+
+        opacity: 1;
+    }
+
+    .menu_open_yes .menu__toggle::before
+    {
+        transform: rotate(45deg);
+
+        box-shadow: none;
+    }
+
+    .menu_open_yes .menu__toggle::after
+    {
+        transform: rotate(-45deg);
+    }
+}

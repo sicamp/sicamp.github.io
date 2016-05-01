@@ -1,0 +1,17 @@
+.header__notification
+{
+    padding: 10px 0;
+
+    color: #fff;
+    border-bottom: 1px solid $textSilentWhite;
+    background: #3986cf;
+}
+
+.header__notification a,
+.header__notification a:visited
+{
+    text-decoration: none;
+
+    color: #fff;
+    border-bottom: 1px solid $textSilentWhite;
+}

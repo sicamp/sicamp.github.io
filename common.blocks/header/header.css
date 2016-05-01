@@ -1,0 +1,26 @@
+.header
+{
+    color: #fff;
+    background-color: $darkGray;
+}
+
+.header__main .wrapper
+{
+    display: flex;
+    flex-direction: column;
+
+    @media (--tablet)
+    {
+        flex-direction: row;
+    }
+}
+
+.page_js_inited .header__main .wrapper
+{
+    flex-direction: row;
+}
+
+.page_js_inited .menu
+{
+    margin-left: auto;
+}

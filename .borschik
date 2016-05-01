@@ -1,0 +1,11 @@
+{
+    "paths" : {
+        "./": "/",
+        "build/dist/assets/": "/assets/"
+    },
+
+    "freeze_paths" : {
+        "./**/!(fontawesome-webfont)*.svg": ":encodeURIComponent:",
+        "./**": "build/dist/assets/"
+    }
+}

@@ -1,0 +1,58 @@
+.promo__yummies
+{
+    @media (--tablet)
+    {
+        display: flex;
+    }
+
+    @media (--desktop)
+    {
+        flex-basis: $gridCol1;
+        flex-direction: column;
+
+        margin-left: auto;
+    }
+}
+
+.promo__yummy
+{
+    display: flex;
+
+    width: 260px;
+    margin: 0 0 20px;
+
+    @media (--tablet)
+    {
+        margin-right: 20px;
+    }
+}
+
+.promo__yummy-text
+{
+    padding: 10px 10px 0;
+
+    color: $textSilentWhite;
+
+    @media (--tablet)
+    {
+        font-size: $fontSize2;
+        line-height: $lineHeight2;
+    }
+}
+
+.promo__yummy-text b
+{
+    font-size: $fontSize2;
+    font-weight: bold;
+    line-height: $lineHeight2;
+
+    display: block;
+
+    color: #fff;
+
+    @media (--tablet)
+    {
+        font-size: $fontSize3;
+        line-height: $lineHeight3;
+    }
+}

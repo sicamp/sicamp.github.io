@@ -1,0 +1,27 @@
+.promo__title
+{
+    font-size: $fontSize4;
+    font-weight: bold;
+    line-height: $lineHeight4;
+
+    margin: 0 0 15px;
+
+    color: #fff;
+
+    @media (--tablet)
+    {
+        font-size: $fontSize5;
+        line-height: $lineHeight5;
+    }
+
+    @media (--desktop)
+    {
+        font-size: $fontSize6;
+        line-height: $lineHeight6;
+
+        flex-shrink: 0;
+        flex-basis: 100%;
+
+        margin: 40px 0 80px;
+    }
+}

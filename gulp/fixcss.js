@@ -5,7 +5,6 @@ const path = require('path');
 const gulp = require('gulp');
 const postcss = require('gulp-postcss');
 const sorting = require('postcss-sorting');
-const stylefmt = require('stylefmt');
 
 function getSortOrder(conf) {
     return conf.rules['declaration-block-properties-order']
@@ -13,7 +12,7 @@ function getSortOrder(conf) {
         .concat([[ '@atrule' ]]);
 }
 
-gulp.task('stylefmt', () => {
+gulp.task('fixcss', () => {
     // Stylelint config for extracting order from it
     const stylelintrc = path.resolve(__dirname, '..', '.stylelintrc');
     var stylelintConf = fs.readFileSync(stylelintrc);
@@ -21,7 +20,7 @@ gulp.task('stylefmt', () => {
     try {
         stylelintConf = JSON.parse(stylelintConf);
     } catch (e) {
-        /* eslint no-console: 1 */
+        /* eslint no-console: 0 */
         console.log('Error in stylelintrc');
         console.log(e);
         return;
@@ -33,8 +32,7 @@ gulp.task('stylefmt', () => {
                 'empty-lines-between-children-rules': 1,
                 'empty-lines-between-media-rules': 1,
                 'sort-order': getSortOrder(stylelintConf)
-            }),
-            stylefmt
+            })
         ]))
         .pipe(gulp.dest('./common.blocks'));
 });

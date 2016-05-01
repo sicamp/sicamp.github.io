@@ -1,6 +1,5 @@
 const gulp = require('gulp');
 
-require('./gulp/vendor');
-require('./gulp/stylefmt');
+require('require-dir')('gulp');
 
 gulp.task('default', [ 'vendor' ]);

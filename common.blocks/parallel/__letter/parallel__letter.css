@@ -1,10 +1,12 @@
 .parallel__letter
 {
-    color: $darkGray;
     line-height: 0.9;
 
-    @media (--tablet) {
-        flex-basis: 80px;
+    color: $darkGray;
+
+    @media (--tablet)
+    {
         flex-shrink: 0;
+        flex-basis: 80px;
     }
 }

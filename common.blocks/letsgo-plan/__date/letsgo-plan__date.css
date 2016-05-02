@@ -1,15 +1,20 @@
 .letsgo-plan__date
 {
-    background: $letsgoFlagsColor;
-    color: #fff;
-    display: inline-block;
-    padding: 5px 15px;
-    position: relative;
-    margin: 0 0 20px;
     font-size: $fontSize2;
     line-height: $lineHeight2;
 
-    @media (--tablet) {
+    position: relative;
+
+    display: inline-block;
+
+    margin: 0 0 20px;
+    padding: 5px 15px;
+
+    color: #fff;
+    background: $letsgoFlagsColor;
+
+    @media (--tablet)
+    {
         font-size: $fontSize3;
         line-height: $lineHeight3;
     }
@@ -17,12 +22,15 @@
 
 .letsgo-plan__date::after
 {
-    content: '';
     position: absolute;
-    width: 20px;
     top: 0;
-    bottom: 0;
     right: 0;
+    bottom: 0;
+
+    width: 20px;
+
+    content: '';
     transform: translateX(99%);
+
     background-image: linear-gradient(to bottom right, $letsgoFlagsColor 50%, transparent 51%);
 }

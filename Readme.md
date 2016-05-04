@@ -21,7 +21,7 @@
 
 [travis-image]: https://img.shields.io/travis/sicamp/sicamp.github.io.svg?style=flat-squared
 [travis-link]: https://travis-ci.org/sicamp/sicamp.github.io
-[appveyor-image]: https://ci.appveyor.com/api/projects/status/y4ox4dx6w7ukj281/branch/dev?svg=true
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/bf3adp62c6vagy3x/branch/dev?svg=true
 [appveyor-link]: https://ci.appveyor.com/project/isqua/sicamp-github-io
 [devdeps-image]: https://img.shields.io/david/dev/sicamp/sicamp.github.io.svg?style=flat-squared
 [devdeps-link]: https://david-dm.org/sicamp/sicamp.github.io#info=devDependencies

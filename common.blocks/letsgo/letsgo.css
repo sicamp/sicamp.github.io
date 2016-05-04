@@ -3,6 +3,8 @@
     font-size: $fontSize1;
     line-height: $lineHeight1;
 
+    padding-top: 40px;
+
     @media (--tablet)
     {
         font-size: $fontSize2;
@@ -43,6 +45,17 @@
     color: #fff;
     border-radius: 2px;
     background: $green;
+
+    @media (--tablet)
+    {
+        font-size: $fontSize4;
+        line-height: $lineHeight4;
+    }
+}
+
+.letsgo__button:hover
+{
+    box-shadow: 0 0 0 1px $green;
 }
 
 .letsgo__button,

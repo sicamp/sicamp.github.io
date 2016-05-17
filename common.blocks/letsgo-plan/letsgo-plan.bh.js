@@ -1,9 +1,10 @@
 module.exports = (bh) => {
     bh.match('letsgo-plan', (ctx, json) => {
-        var entranceLink = bh.lib.config.root + 'entrance/';
+        var entranceLink = bh.lib.resolve('entrance');
         var incomingProfile = 'https://docs.google.com/forms/d/1CU7eTP0Q8BFSDoD1Yk2u7rY2tjPz-fdREekAoreJzbg/viewform?usp=send_form';
         var thematicProfile = 'https://docs.google.com/forms/d/1J3fxAIrxYnno0AlYk8oQ1rvtFWN81hTFOdUKsOyqMmw/viewform?usp=send_form';
         var admittedProfile = 'https://docs.google.com/forms/d/1rNxlVOLInHklrP6y5zapi6QZ6kjeNGeLYvuFlC2y8U0/viewform?usp=send_form';
+        var readyProfiles = 'https://docs.google.com/spreadsheets/d/1jYzVaJaEoXIhI3qzastp_6IBh47yXIn7ukIv2IROnE0/pubhtml';
 
         ctx.tag('section');
         ctx.content({
@@ -25,7 +26,8 @@ module.exports = (bh) => {
                             items: [
                                 'Сделайте <a href="' + entranceLink + '">вступительную работу</a>',
                                 'Заполните <a href="' + incomingProfile +'">анкету поступающего</a>',
-                                'Заполните <a href="' + thematicProfile + '">тематическую анкету</a>'
+                                'Заполните <a href="' + thematicProfile + '">тематическую анкету</a>',
+                                '<a href="' + readyProfiles + '">Проверьте</a>, что вы заполнили анкеты'
                             ]
                         },
                         {

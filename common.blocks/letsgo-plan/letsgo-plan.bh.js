@@ -22,6 +22,7 @@ module.exports = (bh) => {
                         {
                             block: 'letsgo-plan',
                             elem: 'section',
+                            mods: { outdated: 'yes' },
                             date: 'До 24-го мая',
                             items: [
                                 'Сделайте <a href="' + entranceLink + '">вступительную работу</a>',

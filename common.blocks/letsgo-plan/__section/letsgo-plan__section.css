@@ -13,6 +13,11 @@
     }
 }
 
+.letsgo-plan__section_outdated_yes
+{
+    opacity: 0.5;
+}
+
 .letsgo-plan__text
 {
     margin: 0;

@@ -1,7 +1,5 @@
 module.exports = (bh) => {
     bh.match('header', (ctx) => {
-        const notificationLink = bh.lib.config.root + 'letsgo/';
-
         ctx.tag('header');
         ctx.content([
             {
@@ -20,9 +18,7 @@ module.exports = (bh) => {
             },
             {
                 elem: 'notification',
-                text:
-                    'До 24-го мая решите вступительную и отправьте анкету. ' +
-                    '<a href="' + notificationLink + '">Подробнее.</a>'
+                text: 'Дождитесь списков зачисленных.'
             }
         ]);
     });

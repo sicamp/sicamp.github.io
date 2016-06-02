@@ -7,15 +7,12 @@ module.exports = (bh) => {
                 {
                     block: 'promo',
                     elem: 'title',
-                    content: 'Летний компьютерный&nbsp;лагерь'
+                    content: ctx.param('title')
                 },
                 {
                     block: 'promo',
                     elem: 'text',
-                    content:
-                        'Научим решать олимпиадные задачи по&nbsp;программированию. ' +
-                        'Расскажем про&nbsp;алгоритмы, структуры данных, методы их&nbsp;построения и&nbsp;анализа. ' +
-                        'Приглашаем ребят, закончивших 6—10 классы.'
+                    content: ctx.param('description')
                 },
                 {
                     block: 'promo',
@@ -34,7 +31,7 @@ module.exports = (bh) => {
                                 {
                                     block: 'promo',
                                     elem: 'yummy-text',
-                                    content: '<b>Лагерь «Нечайка»</b> посёлок&nbsp;Ласьва, Пермский&nbsp;край'
+                                    content: ctx.param('location')
                                 }
                             ]
                         },
@@ -50,7 +47,7 @@ module.exports = (bh) => {
                                 {
                                     block: 'promo',
                                     elem: 'yummy-text',
-                                    content: '<b>9 — 29 августа 2016</b>'
+                                    content: ctx.param('dates')
                                 }
                             ]
                         }

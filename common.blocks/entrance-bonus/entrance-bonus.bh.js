@@ -38,7 +38,7 @@ module.exports = (bh) => {
                             },
                             text
                         ]
-                    }
+                    };
                 })
             ]
         });

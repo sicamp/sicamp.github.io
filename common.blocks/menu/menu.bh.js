@@ -1,5 +1,7 @@
 module.exports = (bh) => {
     bh.match('menu', (ctx) => {
+        const items = ctx.param('items');
+
         ctx.tag('nav');
         ctx.content([
             {
@@ -7,18 +9,11 @@ module.exports = (bh) => {
             },
             {
                 elem: 'list',
-                content: [
-                    {
-                        elem: 'item',
-                        url: bh.lib.resolve('letsgo'),
-                        content: 'Как попасть в лагерь'
-                    },
-                    {
-                        elem: 'item',
-                        url: bh.lib.resolve('entrance'),
-                        content: 'Вступительная работа'
-                    }
-                ]
+                content: items.map((item) => {
+                    return bh.utils.extend({
+                        elem: 'item'
+                    }, item);
+                })
             }
         ]);
     });

@@ -5,6 +5,9 @@
         },
         {
             block: 'price'
+        },
+        {
+            block: 'departure'
         }
     ]
 });

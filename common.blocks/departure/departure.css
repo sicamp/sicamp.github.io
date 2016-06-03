@@ -1,0 +1,22 @@
+.departure
+{
+    padding: 40px 0;
+}
+
+.departure .wrapper
+{
+    display: flex;
+    flex-direction: column;
+
+    @media (--tablet)
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+.departure .title
+{
+    flex-basis: 100%;
+}

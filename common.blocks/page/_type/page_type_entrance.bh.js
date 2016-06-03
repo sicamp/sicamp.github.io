@@ -1,7 +1,5 @@
 module.exports = (bh) => {
-    bh.match('page_type_entrance', (ctx) => {
-        ctx.param('title', 'Вступительная работа. Летний компьютерный лагерь');
-
+    bh.match('page_type_entrance', function(ctx) {
         ctx.content([
             {
                 block: 'entrance'

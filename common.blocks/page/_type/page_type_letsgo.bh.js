@@ -1,7 +1,5 @@
 module.exports = (bh) => {
-    bh.match('page_type_letsgo', (ctx) => {
-        ctx.param('title', 'Как попасть в Летний компьютерный лагерь');
-
+    bh.match('page_type_letsgo', function(ctx) {
         ctx.content([
             {
                 block: 'letsgo-plan'

@@ -7,26 +7,26 @@ module.exports = (bh) => {
                 {
                     block: 'letsgo',
                     elem: 'text',
-                    content: 'Стоимость путёвки'
+                    content: ctx.param('title')
                 },
                 {
                     block: 'letsgo',
                     elem: 'price',
-                    content: '32&thinsp;500 руб.'
+                    content: ctx.param('price')
                 },
                 {
                     block: 'letsgo',
                     elem: 'text',
-                    content: 'Часть путёвки можно оплатить сертификатом.'
+                    content: ctx.param('hint')
                 },
                 {
                     block: 'letsgo',
                     elem: 'button',
                     tag: 'a',
                     attrs: {
-                        href: bh.lib.resolve('letsgo')
+                        href: ctx.param('url')
                     },
-                    content: 'Как попасть в лагерь'
+                    content: ctx.param('button')
                 }
             ]
         });

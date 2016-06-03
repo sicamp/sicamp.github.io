@@ -137,7 +137,7 @@ module.exports = function (config) {
     // Уровни переопределения
     function getLevels() {
         return {
-            levels: [ 'vendor.blocks', 'common.blocks' ].map(level => config.resolvePath(level))
+            levels: [ 'vendor.blocks', 'common.blocks', 'data.blocks' ].map(level => config.resolvePath(level))
         };
     }
 

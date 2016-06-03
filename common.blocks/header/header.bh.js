@@ -1,7 +1,5 @@
 module.exports = (bh) => {
-    bh.match('header', (ctx) => {
-        const solutionsLink = 'https://github.com/sicamp/tutorial/tree/master/2016';
-
+    bh.match('header', function(ctx) {
         ctx.tag('header');
         ctx.content([
             {
@@ -20,9 +18,7 @@ module.exports = (bh) => {
             },
             {
                 elem: 'notification',
-                text:
-                    'Мы опубликовали <a href="' + solutionsLink + '">разбор вступительной</a>. ' +
-                    'Дождитесь списков зачисленных.'
+                text: ctx.param('notification')
             }
         ]);
     });

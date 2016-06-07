@@ -1,8 +1,8 @@
 module.exports = (bh) => {
     bh.match('footer', (ctx) => {
         const readyProfiles = 'https://docs.google.com/spreadsheets/d/1jYzVaJaEoXIhI3qzastp_6IBh47yXIn7ukIv2IROnE0/pubhtml';
-        const incomingProfile = 'https://docs.google.com/forms/d/1CU7eTP0Q8BFSDoD1Yk2u7rY2tjPz-fdREekAoreJzbg/viewform?usp=send_form';
-        const thematicProfile = 'https://docs.google.com/forms/d/1J3fxAIrxYnno0AlYk8oQ1rvtFWN81hTFOdUKsOyqMmw/viewform?usp=send_form';
+        const admittedProfile = 'https://docs.google.com/forms/d/1rNxlVOLInHklrP6y5zapi6QZ6kjeNGeLYvuFlC2y8U0/viewform?usp=send_form';
+        const arrivalProfile = 'https://docs.google.com/forms/d/1vtMyijx4SJn2Zt4f40FoHUT79yTdr2vSMrdONzKa5wY/viewform?usp=send_form';
 
         ctx.param('sections', [
             {
@@ -11,6 +11,10 @@ module.exports = (bh) => {
                     {
                         url: bh.lib.resolve('letsgo'),
                         content: 'Как попасть в лагерь'
+                    },
+                    {
+                        url: bh.lib.resolve('enlisted'),
+                        content: 'Список зачисленных'
                     },
                     {
                         url: bh.lib.resolve('entrance'),
@@ -30,12 +34,12 @@ module.exports = (bh) => {
                         content: 'Кто заполнил анкеты'
                     },
                     {
-                        url: incomingProfile,
-                        content: 'Заполнить анкету поступающего'
+                        url: admittedProfile,
+                        content: 'Заполнить анкету зачисленного'
                     },
                     {
-                        url: thematicProfile,
-                        content: 'Заполнить тематическую анкету'
+                        url: arrivalProfile,
+                        content: 'Заполнить анкету о&nbsp;приезде для&nbsp;иногородних'
                     }
                 ]
             },

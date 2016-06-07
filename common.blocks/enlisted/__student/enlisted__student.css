@@ -1,0 +1,71 @@
+.enlisted__student
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+    margin-right: -5px;
+    margin-left: -5px;
+    padding: 10px 5px 12px;
+
+    border-bottom: 1px solid #f0f0f0;
+
+    @media (--tablet)
+    {
+        flex-wrap: nowrap;
+    }
+
+    &_hidden_yes
+    {
+        display: none;
+    }
+}
+
+.enlisted__student:hover
+{
+    background: #f0f0f0;
+}
+
+.enlisted__student-main
+{
+    font-size: 15px;
+
+    margin-bottom: 5px;
+}
+
+.enlisted__student-parallel
+{
+    font-weight: bold;
+
+    flex-shrink: 0;
+
+    width: 22px;
+    margin-right: 10px;
+    padding: 2px 4px;
+
+    text-align: center;
+
+    color: #000;
+    border-radius: 3px;
+    background: #ddd;
+}
+
+.enlisted__student-school
+{
+    flex-shrink: 0;
+    flex-basis: 100%;
+
+    box-sizing: border-box;
+    padding-left: 40px;
+
+    @media (--tablet)
+    {
+        flex-shrink: initial;
+        flex-basis: initial;
+
+        margin-left: auto;
+        padding-left: 15px;
+
+        text-align: right;
+    }
+}

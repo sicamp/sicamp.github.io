@@ -6,6 +6,9 @@ module.exports = (bh) => {
             },
             {
                 block: 'price'
+            },
+            {
+                block: 'departure'
             }
         ]);
     });

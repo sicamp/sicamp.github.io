@@ -1,0 +1,14 @@
+.departure__section
+{
+    margin-bottom: 40px;
+}
+
+.departure__section:not(.departure__section_width_content)
+{
+    flex-basis: calc(50% - 20px);
+}
+
+.departure__section-title
+{
+    color: #000;
+}

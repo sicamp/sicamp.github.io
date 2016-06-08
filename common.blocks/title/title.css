@@ -4,12 +4,14 @@
     font-weight: bold;
     line-height: $lineHeight4;
 
-    margin: 10px 0 40px;
+    margin: 10px 0 25px;
 
     color: #000;
 
     @media (--tablet)
     {
+        margin-bottom: 40px;
+
         text-align: center;
     }
 }

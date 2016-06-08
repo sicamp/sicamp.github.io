@@ -126,7 +126,7 @@ module.exports = function (config) {
                     target: JS_TARGET,
                     iife: true,
                     compress: true,
-                    sourcemap: true
+                    sourcemap: false
                 }
             ]);
 

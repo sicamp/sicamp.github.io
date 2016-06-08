@@ -149,7 +149,7 @@ module.exports = function (config) {
         return [
             require('postcss-simple-vars'),
             require('postcss-nested'),
-            require('postcss-cssnext'),
+            require('postcss-cssnext')({ browsers: [ 'last 2 versions', 'Chrome >= 34', 'iOS >= 7' ] }),
             require('postcss-url')({
                 url: 'rebase'
             })

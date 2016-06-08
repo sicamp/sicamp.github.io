@@ -5,11 +5,9 @@
 
 .departure .wrapper
 {
-    display: flex;
-    flex-direction: column;
-
     @media (--tablet)
     {
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;

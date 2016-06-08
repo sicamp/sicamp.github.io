@@ -13,6 +13,7 @@ module.exports = (bh) => {
             '<!DOCTYPE html>',
             {
                 tag: 'html',
+                attrs: { lang: 'ru' },
                 content: [
                     {
                         elem: 'head',

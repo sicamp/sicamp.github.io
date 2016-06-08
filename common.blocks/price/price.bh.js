@@ -1,5 +1,6 @@
 module.exports = (bh) => {
     bh.match('price', (ctx) => {
+        ctx.attr('id', 'price');
         ctx.tag('section');
         ctx.content({
             block: 'wrapper',

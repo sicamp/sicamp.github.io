@@ -1,5 +1,6 @@
 const pages = {
     index: { path: '/' },
+    enlisted: { path: '/enlisted' },
     entrance: { path: '/entrance' },
     letsgo: { path: '/letsgo' }
 };

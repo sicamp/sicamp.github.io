@@ -1,0 +1,20 @@
+.enlisted__search
+{
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 20px;
+
+    display: none;
+
+    width: 100%;
+    max-width: 400px;
+    margin: 0 0 15px;
+    padding: 5px;
+
+    border: 1px solid #ccc;
+}
+
+.enlisted_js_inited .enlisted__search
+{
+    display: block;
+}

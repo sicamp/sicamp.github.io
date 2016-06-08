@@ -1,0 +1,12 @@
+.documents__doc
+{
+    margin-bottom: 40px;
+
+    @media (--tablet)
+    {
+        flex-shrink: 0;
+        flex-basis: calc((100% - 60px) / 4);
+
+        margin-bottom: 0;
+    }
+}

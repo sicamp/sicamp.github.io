@@ -8,6 +8,9 @@
         },
         {
             block: 'departure'
+        },
+        {
+            block: 'documents'
         }
     ]
 });

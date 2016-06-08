@@ -13,24 +13,25 @@ module.exports = (bh) => {
                 date: 'До 24-го мая',
                 outdated: true,
                 items: [
-                    'Сделайте <a href="' + entranceLink + '">вступительную работу</a>',
-                    'Заполните <a href="' + incomingProfile +'">анкету поступающего</a>',
-                    'Заполните <a href="' + thematicProfile + '">тематическую анкету</a>',
-                    '<a href="' + readyProfiles + '">Проверьте</a>, что вы заполнили анкеты'
+                    `Сделайте <a href="${entranceLink}">вступительную работу</a>`,
+                    `Заполните <a href="${incomingProfile}">анкету поступающего</a>`,
+                    `Заполните <a href="${thematicProfile}">тематическую анкету</a>`,
+                    `<a href="${readyProfiles}">Проверьте</a>, что вы заполнили анкеты`
                 ]
             },
             {
                 date: 'До 15-го июня',
                 items: [
                     'Дождитесь списков зачисленных',
-                    'Заполните <a href="' + admittedProfile + '">анкету зачисленного</a>'
+                    `Заполните <a href="${admittedProfile}">анкету зачисленного</a>`
                 ]
             },
             {
                 date: '9-го августа',
                 items: [
-                    'Возьмите вещи и&nbsp;документы и&nbsp;<a href="#departure">приезжайте в&nbsp;лагерь</a>!',
-                    'Если вы едете из&nbsp;другого города, мы встретим вас с&nbsp;самолёта или&nbsp;поезда'
+                    `Возьмите вещи и&nbsp;<a href="#documents">документы</a>
+                    и&nbsp;<a href="#departure">приезжайте в&nbsp;лагерь</a>!
+                    Если вы едете из&nbsp;другого города, мы встретим вас с&nbsp;самолёта или&nbsp;поезда`
                 ]
             }
         ]);

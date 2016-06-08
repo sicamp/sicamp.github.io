@@ -1,7 +1,7 @@
 module.exports = (bh) => {
-    bh.match('price', (ctx) => {
-        ctx.attr('id', 'price');
-        ctx.tag('section');
+    bh.match('documents', (ctx) => {
+        ctx.attr('id', 'documents');
+        ctx.mix({ block: 'bevel' });
         ctx.content({
             block: 'wrapper',
             content: [
@@ -10,8 +10,9 @@ module.exports = (bh) => {
                     content: ctx.param('title')
                 },
                 {
-                    block: 'text',
-                    content: ctx.param('text')
+                    block: 'documents',
+                    elem: 'list',
+                    content: ctx.param('list').map((doc) => bh.utils.extend({ elem: 'doc' }, doc))
                 }
             ]
         });

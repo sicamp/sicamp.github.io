@@ -1,0 +1,66 @@
+.price__parts
+{
+    display: flex;
+    flex-direction: column;
+
+    margin: 30px 0;
+
+    @media (--tablet)
+    {
+        flex-direction: row;
+    }
+}
+
+.price__part
+{
+    padding: 25px 20px 15px;
+
+    color: #fff;
+}
+
+.price__part a,
+.price__part a:visited
+{
+    color: #fff;
+    border-bottom-color: $textSilentWhite;
+}
+
+.price__part-price
+{
+    font-size: $fontSize5;
+    line-height: $lineHeight5;
+}
+
+.price__part-title
+{
+    font-size: $fontSize3;
+    line-height: $lineHeight3;
+}
+
+.price__part-text
+{
+    font-size: $fontSize2;
+    line-height: $lineHeight2;
+}
+
+.price__part_type_accommodation
+{
+    flex-basis: 75%;
+
+    background: $linkVisitedColor;
+}
+
+.price__part_type_education
+{
+    flex-basis: 25%;
+
+    margin-top: 1px;
+
+    background: $green;
+
+    @media (--tablet)
+    {
+        margin-top: 0;
+        margin-left: 1px;
+    }
+}

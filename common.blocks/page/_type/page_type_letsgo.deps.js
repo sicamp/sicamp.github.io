@@ -11,6 +11,9 @@
         },
         {
             block: 'documents'
+        },
+        {
+            block: 'map'
         }
     ]
 });

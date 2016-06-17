@@ -1,0 +1,17 @@
+.map__container
+{
+    height: 400px;
+    margin: 0 10px 10px;
+
+    @media (--tablet)
+    {
+        height: 500px;
+        margin: 0 20px 20px;
+    }
+
+    @media (--desktop)
+    {
+        max-width: 900px;
+        margin: 0 auto 40px;
+    }
+}

@@ -47,7 +47,7 @@ module.exports = (bh) => {
 
     bh.match('page', (ctx) => {
         ctx.param('styles', { elem: 'css', url: bh.lib.static('style.css') });
-        ctx.param('scripts', { elem: 'js', url: bh.lib.static('script.js') });
+        ctx.param('scripts', { block: 'page', elem: 'scripts' });
 
         ctx.content([
             { block: 'header' },
@@ -55,6 +55,10 @@ module.exports = (bh) => {
             { block: 'footer' },
             { elem: 'metrika' }
         ], true);
+    });
+
+    bh.match('page__scripts', () => {
+        return { elem: 'js', url: bh.lib.static('script.js') };
     });
 
     bh.match([ 'page__head', 'page__meta', 'page__link' ], (ctx) => {

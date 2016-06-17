@@ -21,6 +21,7 @@ module.exports = (bh) => {
             },
             {
                 date: 'До 15-го июня',
+                outdated: true,
                 items: [
                     'Дождитесь списков зачисленных',
                     `Заполните <a href="${admittedProfile}">анкету зачисленного</a>`

@@ -1,11 +1,13 @@
 /* global ymaps */
-ymaps.ready(init);
+if (window.ymaps) {
+    ymaps.ready(init);
+}
 
 function init() {
     var bMap = document.querySelector('.map');
     var mapContainer, map, camp, school;
 
-    if ( ! bMap) {
+    if (!bMap) {
         return;
     }
 
@@ -18,11 +20,11 @@ function init() {
 
     map = getMap(mapContainer, camp.coords, camp.zoom);
 
-    var schoolPoint = addPoint(map, school, function() {
+    var schoolPoint = addPoint(map, school, function () {
         campPoint.button.deselect();
     });
 
-    var campPoint = addPoint(map, camp, function() {
+    var campPoint = addPoint(map, camp, function () {
         schoolPoint.button.deselect();
     });
 }
@@ -32,7 +34,7 @@ function getData(block, attr) {
 
     try {
         data = JSON.parse(data);
-    } catch(e) {
+    } catch (e) {
         data = {};
     }
 
@@ -43,7 +45,7 @@ function getMap(container, coords, zoom) {
     return new ymaps.Map(container, {
         center: coords,
         zoom: zoom,
-        controls: [ 'zoomControl', 'fullscreenControl', 'typeSelector' ]
+        controls: ['zoomControl', 'fullscreenControl', 'typeSelector']
     });
 }
 
@@ -62,12 +64,12 @@ function addPoint(map, point, onSelect) {
         state: { selected: point.selected }
     });
 
-    button.events.add('select', function() {
+    button.events.add('select', function () {
         onSelect();
         map.setCenter(point.coords, point.zoom);
     });
 
-    map.controls.add(button, { float: 'left' });
+    map.controls.add(button, {float: 'left'});
     map.geoObjects.add(mark);
 
     return {

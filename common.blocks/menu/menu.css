@@ -7,6 +7,11 @@
         margin-right: 0;
         margin-left: 0;
     }
+
+    @media (--desktop)
+    {
+        margin-left: auto;
+    }
 }
 
 .menu__list

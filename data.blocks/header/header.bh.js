@@ -5,7 +5,7 @@ module.exports = (bh) => {
 
         ctx.param(
             'notification',
-            `Ура! Мы опубликовали <a href="${enlisted}">список зачисленных</a>!
+            `Мы дополнили <a href="${enlisted}">список зачисленных</a>!
             Если вы зачислены, заполните <a href="${admittedProfile}">анкету зачисленного</a>.`
         );
     });

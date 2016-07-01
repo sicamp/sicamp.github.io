@@ -1,12 +1,11 @@
 module.exports = (bh) => {
     bh.match('header', (ctx) => {
-        const enlisted = bh.lib.resolve('enlisted');
-        const admittedProfile = 'https://docs.google.com/forms/d/1rNxlVOLInHklrP6y5zapi6QZ6kjeNGeLYvuFlC2y8U0/viewform?usp=send_form';
+        const letsgo = bh.lib.resolve('letsgo');
 
         ctx.param(
             'notification',
-            `Мы дополнили <a href="${enlisted}">список зачисленных</a>!
-            Если вы зачислены, заполните <a href="${admittedProfile}">анкету зачисленного</a>.`
+            `Подготовьте <a href="${letsgo}#documents">документы</a>, купите билеты до Перми,
+            и <a href="${letsgo}#departure">приезжайте в лагерь</a> 9-го августа!`
         );
     });
 };

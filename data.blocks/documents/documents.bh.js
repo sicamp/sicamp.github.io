@@ -1,7 +1,7 @@
 module.exports = (bh) => {
     bh.match('documents', (ctx) => {
-        const dogovorLink = 'https://github.com/sicamp/sicamp.github.io/raw/files/2016/dogovor.doc';
-        const soglasieLink = 'https://github.com/sicamp/sicamp.github.io/raw/files/2016/soglasie.docx';
+        const dogovorLink = 'http://school9.perm.ru/camp/files/dogovor.doc';
+        const soglasieLink = 'http://school9.perm.ru/camp/files/soglasie.docx';
 
         ctx.param('title', 'Документы, которые надо взять с собой');
         ctx.param('list', [

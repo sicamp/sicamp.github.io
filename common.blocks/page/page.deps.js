@@ -14,7 +14,8 @@
                         'index',
                         'enlisted',
                         'entrance',
-                        'letsgo'
+                        'letsgo',
+                        'things'
                     ]
                 },
                 elems: [ 'css', 'js', 'metrika' ]

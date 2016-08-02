@@ -2,7 +2,8 @@ const pages = {
     index: { path: '/' },
     enlisted: { path: '/enlisted' },
     entrance: { path: '/entrance' },
-    letsgo: { path: '/letsgo' }
+    letsgo: { path: '/letsgo' },
+    things: { path: '/things' }
 };
 
 module.exports = {

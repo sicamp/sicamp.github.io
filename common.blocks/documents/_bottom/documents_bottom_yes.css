@@ -1,0 +1,9 @@
+.documents_bottom_yes
+{
+    margin-bottom: 0;
+}
+
+.documents_bottom_yes.bevel::after
+{
+    content: none;
+}

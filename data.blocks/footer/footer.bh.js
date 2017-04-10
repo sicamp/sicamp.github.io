@@ -8,8 +8,8 @@ module.exports = (bh) => {
                         'Пишите на почту ',
                         {
                             block: 'link',
-                            url: 'mailto:permolymp@yandex.ru',
-                            content: 'permolymp@yandex.ru'
+                            url: 'mailto:mail@sicamp.ru',
+                            content: 'mail@sicamp.ru'
                         }
                     ],
                     [

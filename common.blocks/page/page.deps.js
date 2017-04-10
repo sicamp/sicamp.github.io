@@ -11,11 +11,7 @@
                 block: 'page',
                 mods: {
                     type: [
-                        'index',
-                        'enlisted',
-                        'entrance',
-                        'letsgo',
-                        'things'
+                        'index'
                     ]
                 },
                 elems: [ 'css', 'js', 'metrika' ]

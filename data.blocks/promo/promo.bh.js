@@ -1,6 +1,6 @@
 module.exports = (bh) => {
     bh.match('promo', (ctx) => {
-        const campLink = 'http://nechayka.ru/about';
+        const campLink = 'https://yandex.ru/maps/-/C6UwBBpb';
 
         ctx.param('title', 'Летний компьютерный&nbsp;лагерь');
 
@@ -13,9 +13,9 @@ module.exports = (bh) => {
 
         ctx.param(
             'location',
-            '<b>Лагерь <a href="' + campLink + '">«Нечайка»</a></b> посёлок&nbsp;Ласьва, Пермский&nbsp;край'
+            '<b>Лагерь <a href="' + campLink + '">«Комета»</a></b> село&nbsp;Янычи, Пермский&nbsp;край'
         );
 
-        ctx.param('dates', '<b>9 — 29 августа 2016</b>');
+        ctx.param('dates', '<b>9 — 29 августа 2017</b>');
     });
 };

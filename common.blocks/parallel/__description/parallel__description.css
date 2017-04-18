@@ -1,0 +1,8 @@
+.parallel__description
+{
+    @media (--tablet)
+    {
+        font-size: $fontSize2;
+        line-height: $lineHeight2;
+    }
+}

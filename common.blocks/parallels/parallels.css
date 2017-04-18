@@ -9,9 +9,3 @@
 {
     color: #666;
 }
-
-.parallels__list
-{
-    display: flex;
-    flex-wrap: wrap;
-}

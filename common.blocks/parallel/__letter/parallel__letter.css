@@ -1,12 +1,13 @@
 .parallel__letter
 {
+    font-size: 100px;
+    font-weight: normal;
     line-height: 0.9;
 
-    color: $darkGray;
+    margin: 0;
 
-    @media (--tablet)
-    {
-        flex-shrink: 0;
-        flex-basis: 80px;
-    }
+    text-indent: -0.07em;
+
+    opacity: 0.8;
+    color: $darkGray;
 }

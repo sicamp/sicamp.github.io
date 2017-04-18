@@ -1,0 +1,14 @@
+.details__summary
+{
+    font-size: $fontSize2;
+    font-weight: bold;
+
+    padding: 2px 5px;
+
+    background-color: $lightGray;
+}
+
+.details__section
+{
+    margin-top: 0.5em;
+}

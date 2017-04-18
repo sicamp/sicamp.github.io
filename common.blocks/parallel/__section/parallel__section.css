@@ -1,0 +1,24 @@
+.parallel__section
+{
+    box-sizing: border-box;
+    margin: 0 0 0.7em;
+
+    @media (--tablet)
+    {
+        margin-bottom: 1em;
+    }
+}
+
+.parallel__section-title
+{
+    font-size: $fontSize2;
+    line-height: $lineHeight2;
+
+    margin: 0 0 0.3em;
+
+    @media (--tablet)
+    {
+        font-size: $fontSize3;
+        line-height: $lineHeight3;
+    }
+}

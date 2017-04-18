@@ -1,5 +1,6 @@
 const pages = {
-    index: { path: '/' }
+    index: { path: '/' },
+    entrance: { path: '/entrance' }
 };
 
 module.exports = {

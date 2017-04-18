@@ -22,6 +22,10 @@ module.exports = function (bh) {
         ctx.param('parallels', [
             {
                 letter: 'D',
+                years: {
+                    from: 6,
+                    to: 7
+                },
                 mods: { layout: 'max' },
                 attrs: { id: 'paralleld' },
                 title: 'Основы и техника программирования и&nbsp;решения олимпиадных задач',
@@ -69,6 +73,10 @@ module.exports = function (bh) {
             },
             {
                 letter: 'C′',
+                years: {
+                    from: 6,
+                    to: 8
+                },
                 title: 'Алгоритмы для&nbsp;начинающих',
                 tasks: [ 'A', 'B', 'C' ],
                 description:
@@ -78,6 +86,10 @@ module.exports = function (bh) {
             },
             {
                 letter: 'C',
+                years: {
+                    from: 7,
+                    to: 9
+                },
                 title: 'Базовые алгоритмы',
                 tasks: [ 'B', 'C', 'D', 'E' ],
                 description:
@@ -89,6 +101,10 @@ module.exports = function (bh) {
             },
             {
                 letter: 'B′',
+                years: {
+                    from: 7,
+                    to: 10
+                },
                 title: 'Практическое применение алгоритмов в&nbsp;олимпиадных задачах',
                 tasks: [ 'D', 'E', 'F', 'G' ],
                 description:
@@ -98,6 +114,10 @@ module.exports = function (bh) {
             },
             {
                 letter: 'B',
+                years: {
+                    from: 8,
+                    to: 10
+                },
                 title: 'Алгоритмы и&nbsp;структуры данных',
                 tasks: [ 'F', 'G', 'H', 'I' ],
                 description:
@@ -111,6 +131,10 @@ module.exports = function (bh) {
             },
             {
                 letter: 'A',
+                years: {
+                    from: 9,
+                    to: 10
+                },
                 title: 'Продвинутые алгоритмы и&nbsp;структуры данных',
                 tasks: [ 'H', 'I', 'J', 'K' ],
                 description:

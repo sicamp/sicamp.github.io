@@ -53,7 +53,7 @@ module.exports = (bh) => {
                     json.years && {
                         elem: 'years',
                         years: json.years
-                    },
+                    }
                 ]
             },
             {

@@ -17,14 +17,14 @@ module.exports = (bh) => {
     });
 
     bh.match('details__summary', (ctx) => {
-        ctx.tag('summary')
+        ctx.tag('summary');
     });
 
     bh.match('details__summary-wrapper', (ctx) => {
-        ctx.tag('span')
+        ctx.tag('span');
     });
 
     bh.match('details__section', (ctx) => {
-        ctx.tag('section')
+        ctx.tag('section');
     });
 };

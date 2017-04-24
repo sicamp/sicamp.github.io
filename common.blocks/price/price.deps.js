@@ -4,6 +4,9 @@
             elems: [
                 'parts'
             ]
+        },
+        {
+            block: 'text'
         }
     ]
 });

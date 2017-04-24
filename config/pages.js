@@ -1,6 +1,8 @@
 const pages = {
     index: { path: '/' },
-    entrance: { path: '/entrance' }
+    entrance: { path: '/entrance' },
+    forms: { path: '/forms' },
+    letsgo: { path: '/letsgo' }
 };
 
 module.exports = {

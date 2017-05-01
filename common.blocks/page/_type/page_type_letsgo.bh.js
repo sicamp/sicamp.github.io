@@ -6,15 +6,6 @@ module.exports = (bh) => {
             },
             {
                 block: 'price'
-            },
-            {
-                block: 'documents'
-            },
-            {
-                block: 'departure'
-            },
-            {
-                block: 'map'
             }
         ]);
     });

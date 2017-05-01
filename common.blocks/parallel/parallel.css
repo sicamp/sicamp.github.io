@@ -14,4 +14,9 @@
 .parallel__content
 {
     margin: 0 0 20px;
+
+    @media (--tablet)
+    {
+        flex-grow: 1;
+    }
 }

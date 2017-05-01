@@ -4,15 +4,11 @@
 
     @media (--tablet)
     {
-        width: calc(50% - 40px);
-    }
-}
+        &:not(.entrance-bonus__section_wide_yes)
+        {
+            width: calc(50% - 40px);
+        }
 
-.entrance-bonus__section.entrance-bonus__section_type_students
-{
-    @media (--tablet)
-    {
-        width: 100%;
     }
 }
 

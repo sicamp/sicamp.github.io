@@ -1,0 +1,12 @@
+.details_theme_strip .details__summary
+{
+    font-size: $fontSize2;
+    line-height: $lineHeight2;
+
+    padding: 10px;
+
+    cursor: pointer;
+
+    color: #fff;
+    background: $green;
+}

@@ -4,8 +4,6 @@
 
     padding: 40px 0 0;
 
-    border-bottom: 10px solid $letsgoFlagsColor;
-
     @media (--tablet)
     {
         border-bottom-width: 20px;
@@ -21,33 +19,5 @@
     {
         flex-direction: row;
         justify-content: space-between;
-    }
-}
-
-.letsgo-plan::after
-{
-    position: absolute;
-    right: 0;
-    bottom: -49px;
-    left: 0;
-
-    display: block;
-
-    height: 40px;
-
-    content: '';
-
-    background-image:
-        linear-gradient(to bottom left, $letsgoFlagsColor 50%, transparent 51%),
-        linear-gradient(to bottom right, $letsgoFlagsColor 50%, transparent 51%);
-    background-repeat: no-repeat;
-    background-position: 0 0, 99% 0;
-    background-size: 50% 100%;
-
-    @media (--tablet)
-    {
-        bottom: -79px;
-
-        height: 60px;
     }
 }

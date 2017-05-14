@@ -1,9 +1,8 @@
 .features
 {
-    margin-bottom: 100px;
     padding: 60px 0 20px;
 
-    color: $lighterGray;
+    background-color: $lighterGray;
 
     .wrapper
     {
@@ -11,9 +10,4 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
-}
-
-.features.bevel
-{
-    margin-top: 0;
 }

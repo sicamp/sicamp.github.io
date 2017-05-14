@@ -1,14 +1,8 @@
 .documents
 {
-    padding: 100px 0 40px;
+    padding: 40px 0 40px;
 
-    color: $lighterGray;
-    border-bottom: 1px solid #ddd;
-}
-
-.documents .wrapper
-{
-    color: #000;
+    background-color: $lighterGray;
 }
 
 .documents__list

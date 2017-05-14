@@ -1,7 +1,6 @@
 module.exports = (bh) => {
     bh.match('documents', (ctx) => {
         ctx.attr('id', 'documents');
-        ctx.mix({ block: 'bevel' });
         ctx.content({
             block: 'wrapper',
             content: [

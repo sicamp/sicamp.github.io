@@ -1,9 +1,6 @@
 ({
     shouldDeps: [
         {
-            block: 'bevel'
-        },
-        {
             block: 'title'
         },
         {

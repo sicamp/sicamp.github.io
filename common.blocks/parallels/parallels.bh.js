@@ -5,9 +5,6 @@ module.exports = function (bh) {
         const tasks = ctx.param('tasks');
 
         ctx.tag('article');
-        ctx.mix({
-            block: 'bevel'
-        });
 
         ctx.content({
             block: 'wrapper',

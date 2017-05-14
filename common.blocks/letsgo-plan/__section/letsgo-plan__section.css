@@ -1,8 +1,18 @@
 .letsgo-plan__section
 {
-    padding-bottom: 40px;
+    box-sizing: border-box;
 
-    border-left: 2px solid $letsgoFlagsColor;
+    padding-right: 15px;
+    padding-bottom: 20px;
+
+    border: 2px solid $letsgoFlagsColor;
+
+    background-color: $lighterGray;
+
+    @media (--mobile-only)
+    {
+        margin-bottom: -2px;
+    }
 
     @media (--tablet)
     {
@@ -16,6 +26,8 @@
 .letsgo-plan__section_outdated_yes
 {
     opacity: 0.5;
+
+    background-color: $lightGray;
 }
 
 .letsgo-plan__text

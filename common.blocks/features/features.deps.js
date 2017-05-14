@@ -8,9 +8,6 @@
         },
         {
             block: 'feature'
-        },
-        {
-            block: 'bevel'
         }
     ]
 });

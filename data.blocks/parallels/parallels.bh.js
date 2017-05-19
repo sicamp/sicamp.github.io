@@ -2,7 +2,8 @@ module.exports = function (bh) {
 
     bh.match('parallels', function (ctx) {
         const parallelDlink = 'http://school9.perm.ru/camp/D.pdf';
-        const vkGroupLink = 'https://vk.com/sicamp';
+        const parallelPlink = 'https://gitlab.com/sicamp-py/introductory-work-2017';
+        const parallelPname = 'introductory-work-2017';
 
         ctx.param('title', 'Учебные параллели');
 
@@ -327,10 +328,11 @@ module.exports = function (bh) {
                 },
                 title: 'Промышленное программирование',
                 tasks: {
-                    tag: 'p',
+                    elem: 'section',
                     content:
-                        `<b>Вступительная и подробное описание для параллели P скоро появится. Следите за анонсами
-                        <a href="${vkGroupLink}">в группе</a>.</b>`
+                        `<p>Подробное описание параллели P, её программы и вступительной работы мы подготовили
+                        в репозитории <a href="${parallelPlink}">${parallelPname}</a>. Решения вступительной
+                        работы для этой параллели мы принимаем <nobr>до 4-го июня</nobr>.`
                 },
                 description:
                     `<p>Новая, экспериментальная параллель. В ней мы ждём опытных ребят (уровня параллели B и выше),

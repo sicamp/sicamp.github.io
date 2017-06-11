@@ -13,6 +13,13 @@
     padding: 25px 20px 15px;
 
     color: #fff;
+
+    background: $linkVisitedColor;
+}
+
+.price__part strong
+{
+    font-size: 1.1em;
 }
 
 .price__part a,

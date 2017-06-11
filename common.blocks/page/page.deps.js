@@ -12,6 +12,7 @@
                 mods: {
                     type: [
                         'index',
+                        'enlisted',
                         'entrance',
                         'letsgo'
                     ]

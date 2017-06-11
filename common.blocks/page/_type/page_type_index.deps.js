@@ -5,6 +5,9 @@
         },
         {
             block: 'features'
+        },
+        {
+            block: 'letsgo'
         }
     ]
 });

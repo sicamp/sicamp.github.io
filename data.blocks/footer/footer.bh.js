@@ -8,6 +8,10 @@ module.exports = (bh) => {
                 title: 'Информация',
                 items: [
                     {
+                        url: bh.lib.resolve('enlisted'),
+                        content: 'Список зачисленных'
+                    },
+                    {
                         url: bh.lib.resolve('letsgo'),
                         content: 'Как попасть в лагерь'
                     },
@@ -39,15 +43,6 @@ module.exports = (bh) => {
                             block: 'link',
                             url: 'mailto:mail@sicamp.ru',
                             content: 'mail@sicamp.ru'
-                        }
-                    ],
-                    [
-
-                        'или ',
-                        {
-                            block: 'link',
-                            url: 'https://vk.com/id18102838',
-                            content: 'Кириллу Симонову в ВК'
                         }
                     ],
                     [

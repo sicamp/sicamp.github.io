@@ -20,6 +20,9 @@ module.exports = (bh) => {
                         }, feature);
                     })
                 ]
+            },
+            {
+                block: 'letsgo'
             }
         ]);
     });

@@ -5,12 +5,6 @@ module.exports = (bh) => {
                 block: 'things',
                 title: ctx.param('things-title'),
                 things: ctx.param('things')
-            },
-            {
-                block: 'documents',
-                mods: {
-                    bottom: 'yes'
-                }
             }
         ]);
     });

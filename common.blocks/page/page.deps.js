@@ -13,7 +13,8 @@
                     type: [
                         'index',
                         'entrance',
-                        'letsgo'
+                        'letsgo',
+                        'things'
                     ]
                 },
                 elems: [ 'css', 'js', 'metrika' ]

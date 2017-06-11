@@ -3,10 +3,10 @@ module.exports = (bh) => {
         ctx.param('title', 'Где находится лагерь');
 
         ctx.param('camp', {
-            title: 'Лагерь Нечайка',
+            title: 'Лагерь Комета',
             button: 'Лагерь',
             selected: true,
-            coords: [ 58.07653, 55.968042 ],
+            coords: [ 57.670682, 56.406249 ],
             zoom: 11
         });
 

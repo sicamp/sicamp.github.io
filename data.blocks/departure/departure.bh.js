@@ -1,7 +1,7 @@
 module.exports = (bh) => {
 
     bh.match('departure', (ctx) => {
-        const arrivalProfile = 'https://docs.google.com/forms/d/1vtMyijx4SJn2Zt4f40FoHUT79yTdr2vSMrdONzKa5wY/viewform?usp=send_form';
+        const arrivalProfile = 'https://school9.perm.ru/sicamp-reg/forms/edit/lkl-2017-arrival';
 
         ctx.param('title', 'Приезд и отъезд');
 
@@ -33,12 +33,6 @@ module.exports = (bh) => {
                     <p>Когда будете покупать билеты, ориентируйтесь на цену и удобство, мы встретим вас в любом случае.</p>
 
                     <p>Если ребёнок едет из города один, напишите нам. Мы поможем вам найти, с кем можно доехать до Перми вместе.</p>`
-            },
-            {
-                title: 'Телефоны для связи',
-                text:
-                    `<p><a href="tel:+79824357077">+7 982 435-70-77</a>&nbsp;— Галина Михайловна Шульгина</p>
-                    <p><a href="tel:+79194872024">+7 919 487-20-24</a>&nbsp;— Кирилл Симонов</p>`
             }
         ]);
     });

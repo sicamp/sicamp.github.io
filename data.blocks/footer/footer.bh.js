@@ -8,6 +8,10 @@ module.exports = (bh) => {
                 title: 'Информация',
                 items: [
                     {
+                        url: bh.lib.resolve('enlisted'),
+                        content: 'Список зачисленных'
+                    },
+                    {
                         url: bh.lib.resolve('letsgo'),
                         content: 'Как попасть в лагерь'
                     },

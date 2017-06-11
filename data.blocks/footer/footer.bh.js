@@ -42,15 +42,6 @@ module.exports = (bh) => {
                         }
                     ],
                     [
-
-                        'или ',
-                        {
-                            block: 'link',
-                            url: 'https://vk.com/id18102838',
-                            content: 'Кириллу Симонову в ВК'
-                        }
-                    ],
-                    [
                         'Вступайте в нашу ',
                         {
                             block: 'link',

@@ -8,6 +8,10 @@ module.exports = (bh) => {
             {
                 url: bh.lib.resolve('entrance'),
                 content: 'Вступительная работа'
+            },
+            {
+                url: bh.lib.resolve('enlisted'),
+                content: 'Список зачисленных'
             }
         ]);
     });

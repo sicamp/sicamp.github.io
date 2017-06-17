@@ -7,11 +7,9 @@
         flex-shrink: 0;
         flex-basis: calc((100% - 40px) / 3);
 
-        margin-right: 20px;
-
-        &:nth-child(3)
+        &:not(:nth-child(3n))
         {
-            margin-right: 0;
+            margin-right: 20px;
         }
     }
 }

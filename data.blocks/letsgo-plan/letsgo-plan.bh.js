@@ -1,6 +1,7 @@
 module.exports = (bh) => {
     bh.match('letsgo-plan', (ctx) => {
         const entranceLink = bh.lib.resolve('entrance');
+        const thingsLink = bh.lib.resolve('things');
         const formsLink = 'https://school9.perm.ru/sicamp-reg/forms/';
 
         const incomingProfile = 'https://school9.perm.ru/sicamp-reg/forms/edit/lkl-2017-incoming';
@@ -23,6 +24,7 @@ module.exports = (bh) => {
             },
             {
                 date: 'До 18-го июня',
+                outdated: true,
                 items: [
                     'Дождитесь списков зачисленных',
                     `Заполните <a href="${enlistedProfile}">анкету зачисленного</a>`
@@ -32,7 +34,7 @@ module.exports = (bh) => {
                 date: '9-го августа',
                 items: [
                     `Если едете из другого города, заполните <a href="${arrivalProfile}">анкету о приезде</a>`,
-                    `Возьмите вещи и документы
+                    `Возьмите <a href="${thingsLink}">вещи и документы</a>
                     и приезжайте в лагерь!
                     Если вы едете из другого города, мы встретим вас с самолёта или поезда`
                 ]

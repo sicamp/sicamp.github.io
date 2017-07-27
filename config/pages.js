@@ -3,7 +3,8 @@ const pages = {
     enlisted: { path: '/enlisted' },
     entrance: { path: '/entrance' },
     forms: { path: '/forms' },
-    letsgo: { path: '/letsgo' }
+    letsgo: { path: '/letsgo' },
+    things: { path: '/things' }
 };
 
 module.exports = {

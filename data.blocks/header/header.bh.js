@@ -1,12 +1,13 @@
 module.exports = (bh) => {
     bh.match('header', (ctx) => {
-        const enlisted = bh.lib.resolve('enlisted');
-        const enlistedProfile = 'https://school9.perm.ru/sicamp-reg/forms/edit/lkl-2017-enlisted';
+        const letsgo = bh.lib.resolve('letsgo');
+        const things = bh.lib.resolve('things');
+        const arrivalProfile = 'https://school9.perm.ru/sicamp-reg/forms/edit/lkl-2017-arrival';
 
         ctx.param(
             'notification',
-            `Ура! Мы опубликовали <a href="${enlisted}">список зачисленных</a>!
-            Если вы зачислены, заполните <a href="${enlistedProfile}">анкету зачисленного</a>.`
+            `Собирайте <a href="${things}">вещи</a> и <a href="${letsgo}">приезжайте в лагерь</a>!
+            Если вы из другого города, не забудьте заполнить <a href="${arrivalProfile}">анкету о приезде</a>.`
         );
     });
 };

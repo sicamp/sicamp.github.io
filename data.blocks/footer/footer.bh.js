@@ -17,7 +17,7 @@ module.exports = (bh) => {
                     },
                     {
                         url: bh.lib.resolve('entrance'),
-                        content: 'Вступительная работа'
+                        content: 'Что взять с собой'
                     }
                 ]
             },
@@ -31,6 +31,10 @@ module.exports = (bh) => {
                     {
                         url: formsUrl,
                         content: 'Вступительные анкеты'
+                    },
+                    {
+                        url: bh.lib.resolve('entrance'),
+                        content: 'Вступительная работа'
                     }
                 ]
             },

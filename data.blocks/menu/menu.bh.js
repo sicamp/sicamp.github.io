@@ -6,8 +6,8 @@ module.exports = (bh) => {
                 content: 'Как попасть в лагерь'
             },
             {
-                url: bh.lib.resolve('entrance'),
-                content: 'Вступительная работа'
+                url: bh.lib.resolve('things'),
+                content: 'Что взять с собой'
             },
             {
                 url: bh.lib.resolve('enlisted'),

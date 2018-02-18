@@ -1,10 +1,13 @@
 .header__notification
 {
-    padding: 10px 0;
+    font-size: 15px;
+
+    padding: 15px 10px;
+
+    text-align: center;
 
     color: #fff;
-    border-bottom: 1px solid $textSilentWhite;
-    background: #3986cf;
+    background: #e34919;
 }
 
 .header__notification a,

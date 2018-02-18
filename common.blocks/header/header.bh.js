@@ -3,6 +3,10 @@ module.exports = (bh) => {
         ctx.tag('header');
         ctx.content([
             {
+                elem: 'notification',
+                text: ctx.param('notification')
+            },
+            {
                 elem: 'main',
                 content: {
                     block: 'wrapper',
@@ -15,10 +19,6 @@ module.exports = (bh) => {
                         }
                     ]
                 }
-            },
-            {
-                elem: 'notification',
-                text: ctx.param('notification')
             }
         ]);
     });
